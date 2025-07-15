@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer base{
+    h1{
+        @apply ml-[103px] text-white font-bold text-[50px] leading-[61.2px] tracking-[0.2px] font-sans
+    }
+   }
+   @layer components{
+    .para{
+        @apply text-white 
+    }
+   }
