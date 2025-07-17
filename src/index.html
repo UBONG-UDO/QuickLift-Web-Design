@@ -58,13 +58,13 @@
           <!-- SECTION ABOUT US -->
         </div>
       </section>
-      <section class="flex gap-[110px] w-[1442px]  h-full bg-center bg-blue-700 bg-white mx-auto">
+      <section class="flex gap-[110px] w-[1442px]  h-full bg-center bg-white mx-auto">
         <div class="ml-[103px] mt-[133px] mb-[92px] bg-[url('./images/Rectangle7802.png')] w-[527px] h-[473px] bg-cover bg-no-repeat">
             <div class="mt-[86px] bg-[url('./images/Rectangle_7803.png')] w-[357px] h-[301px] bg-cover bg-no-repeat z-20"></div>
         </div>
-        <div>
-            <p class="mt-[128px] text-[26px] text-blue-800 font-bold font-[131px] ">ABOUT US</p>
-            <p class="pt-[22px] w-[527px] h-[101px] font-[527px] text-4xl font-bold leading-[50.2px] tracking-[0.2px] font-poppins">Most trusted ride hailing <br>company in Nigeria</p>
+        <div class="max-w-full">
+            <p class="mt-[128px] text-[26px] text-blue-800 font-bold">ABOUT US</p>
+            <p class="pt-[22px] w-[527px] h-[101px] font-bold text-4xl leading-[50.2px] tracking-[0.2px] font-poppins">Most trusted ride hailing <br>company in Nigeria</p>
             <p class=" w-[566px] h-[76px] pt-8 font-poppins font-normal leading-[25.2px] tracking-[0.2px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida <br>
                 quis nisl utsemper. Quisque nibh orci. Lorem ipsum dolor sit amet, <br>
                 quis nisl utsemper. Quisque nibh orci. Lorem ipsum</p>
@@ -83,11 +83,11 @@
         </div>
       </section>
      <!-- SECTION (Ride to make Memories)  -->
-      <section class="flex justify-center max-w-[1440px] mx-auto">
+      <section class="flex justify-center max-w-full border-2 mx-auto">
         <div class="bg-[url('./images/Rectangle7807.png')] h-[902px] w-full bg-white/50 bg-blend-darken bg-center bg-cover bg-no-repeat relative before:absolute before:top-0 before:left-0 before:h-full before:w-full">
           <h2 class="pt-[67px] flex justify-center font-bold text-4xl leading-[50.2px] tracking-[0.2px]">Ride to make memories</h2>
           <p class="flex justify-center font-poppins font-medium text-[17px] leading-[25.2px] tracking-[0.2px] pt-[11px] text-[#393939]">Find trips that fits a flexible lifestyle</p>
-          <div class="flex gap-[380px]">
+          <div class="flex justify-center gap-[380px]">
           <div class="pt-[53px]">
               <div class="ml-[205px] bg-[url('./images/Rectangle7805.png')] bg-cover bg-center w-[48px] h-[20px] "></div>
               <p class="ml-[205px] pt-[19px] font-bold text-2xl leading-[25.2px] tracking-[0.2px] text-[#393939]">We offer fair fares for <br> trips</p>
@@ -105,8 +105,8 @@
                 elit. Ut gravida quis nisl ut semper. Quisque nibh
               </p>
               <button
-              class="mt-12 ml-[205px] text-white rounded-[10px] py-5 px-[34px] font-black uppercase bg-blue-800">
-              Download App</button>
+              class="mt-12 ml-[205px] text-white rounded-[10px] py-5 px-[34px] font-semibold bg-blue-800">
+              Sign up to drive</button>
             </div>
 
             <div class="pt-[54px] ">
@@ -138,26 +138,297 @@
         </div>
       </section>
       <!-- SECTION (How it Works) -->
-      <section class="flex justify-center max-w-[1440px] mx-auto">
-<div class="bg-[url('./images/3phones.png')] bg-cover bg-center w-[613.29px] h-[446px] mt-[343px] ml-[95px]"></div>
+    
+      <section class="flex max-w-[1440px] mx-auto
+      lg:flex lg:justify-center lg:max-w-[1440px] lg:mx-auto
+      sm:flex sm:justify-center sm:max-w-[1440px] sm:mx-auto">
+<div class="bg-[url('./images/3phones.png')] bg-cover bg-center w-[600px] h-[400px] mt-[300px] ml-[95p]"></div>
 <div>
-  <h2 class="mt-[102px] flex justify-center text-4xl font-bold">How it Works</h2>
-  <div class="grid grid-cols-2 grid-rows-2 gap-x-15 p-4 mt-[205px] border-2">
-   <div> <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Set Destination</h3>
+  <div class="flex flex-col justify-centern items-center">
+    <h2 class="mt-[102px] text-4xl font-bold">How it Works</h2>
+      <img src="images/underline.png" class="w-35 mt-1" />
+  </div>
+  <!-- Grid -->
+   <!-- grid grid-cols-2 grid-rows-2 gap-x-15 p-4 mt-[50px] mb-12 -->
+  <div class="grid grid-cols-1 grid-rows- gap-x-15 p-4 mt-[50px] mb-12 pl-16
+   lg:grid lg:grid-cols-2 lg:grid-rows-2 lg:gap-x-15 lg:p-4 lg:mt-[50px] lg:mb-12 
+  sm:grid sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-15 sm:p-4 sm:pl-24 sm:mt-[50px] sm:mb-12">
+    <div class="mt-6">
+    <div class="w-[100px] h-[95px] border-amber-50 border-2  bg-[url('./images/1.png')] bg-cover z-10 bg-center">
+      <img src="images/11.png" class="w-10 h-10 mt-7 ml-8 z-40 object-cover object-center border border-transparent" />
+    </div>
+  <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Set Destination</h3>
+  <p class="text-[14px] font-medium text-[#393939]">
+    Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Ut gravida <br>
+    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh
+  </p>
+</div>
+
+   <div class="mt-6"> 
+    <div class="w-[100px] h-[95px] border-amber-50 border-2  bg-[url('./images/2.png')] bg-cover z-10 bg-center">
+      <img src="images/22.png" class="w-11 h-11 mt-7 ml-8 z-40 object-cover object-center border border-transparent" />
+    </div>
+    <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Explore the Ride</h3>
     <p class="text-[14px] font-medium text-[#393939]">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Ut gravida <br>
-    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p></div>
-   <div> <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Set Destination</h3>
+    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p>
+  </div>
+
+   <div class="mt-6"> 
+    <div class="w-[100px] h-[95px] border-amber-50 border-2 bg-[url('./images/3.png')] bg-cover z-10 bg-center">
+      <img src="images/33.png" class="w-10 h-12 mt-6 ml-6 z-40 object-cover object-center border border-transparent" />
+    </div>
+    <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Track Journey</h3>
     <p class="text-[14px] font-medium text-[#393939]">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Ut gravida <br>
-    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p></div>
-   <div> <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Set Destination</h3>
+    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p>
+  </div>
+
+   <div class="mt-6">
+    <div class="w-[100px] h-[95px] border-amber-50 border-2 bg-[url('./images/4.png')] bg-cover z-10 bg-center">
+      <img src="images/44.png" class="w-10 h-8 mt-8 ml-9 z-40 object-cover object-center border border-transparent" />
+    </div>
+    <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Simple Payment</h3>
     <p class="text-[14px] font-medium text-[#393939]">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Ut gravida <br>
-    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p></div>
-   <div> <h3 class="text-2xl font-semibold mt-[12px] text-[#272727]">Set Destination</h3>
-    <p class="text-[14px] font-medium text-[#393939]">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Ut gravida <br>
-    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p></div>
+    quis nisl ut semper. Quisque nibh quis <br>nisl ut semper. Quisque nibhquis nisl <br>ut semper. Quisque nibh</p>
+  </div>
+
   </div>
 </div>
       </section>
+
+
+   <!-- SECTION (Clients Comments) -->
+
+
+<section class="w-full relative bg-[url('./images/Rectangle7807.png')] bg-cover bg-center bg-no-repeat bg-white/50 bg-blend-darken h-[1100px]">
+  <!-- Content wrapper (centered and width-limited) -->
+  <div class="max-w-[1440px] mx-auto px-4">
+    <!-- Title and description -->
+    <div class="flex flex-col items-center text-center pt-[102px]">
+      <h2 class="text-4xl font-bold">Clients Comments</h2>
+      <p class="pt-4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida <br />
+        quis nisl ut semper. nibh ut semper nisl ut semper
+      </p>
+    </div>
+
+    <!-- Grid of reviews -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 mb-12">
+      <!-- Repeat this card for each review -->
+      <div class="max-w-md p-6 bg-white rounded-xl shadow-md space-y-4 mx-auto">
+        <!-- Profile Section -->
+        <div class="flex items-center space-x-4">
+          <img src="images/a1.png" alt="Gabrielle Union" class="w-12 h-12 rounded-full object-cover">
+          <div class="flex-1">
+            <h2 class="text-lg font-semibold text-gray-900">Gabrielle Union</h2>
+          </div>
+          <div class="flex space-x-1 text-blue-800">★ ★ ★ ★ ★</div>
+        </div>
+        <!-- Review Text -->
+        <p class="text-gray-600 text-[15px] leading-relaxed">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semper. Quisque nibh Lorem ipsum dolor sit amet.
+        </p>
+        <!-- Date -->
+        <p class="pt-3 text-sm text-gray-400">28 October 2023</p>
+      </div>
+      <!-- More cards... -->
+                   
+            <div class="max-w-md p-6 bg-white rounded-xl shadow-md space-y-4">
+              <!-- Profile Section -->
+              <div class="flex items-center space-x-4">
+                <img src="images/a2.png" alt="Tems Jacob" class="w-12 h-12 rounded-full object-cover">
+                <div class="flex-1">
+                  <h2 class="text-lg font-semibold text-gray-900">Rihanna Grey</h2>
+                </div>
+                <!-- Star Rating -->
+                <div class="flex space-x-1">
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-gray-500">★</span>
+                </div>
+              </div>
+              <!-- Review Text -->
+              <p class="text-gray-600 text-[15px] leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semperA. Quisque nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semper. Quisque nibh
+              </p>
+              <!-- Date -->
+              <p class="pt-3 text-sm text-gray-400">28 October 2023</p>
+            </div>
+            
+            <div class="max-w-md p-6 bg-white rounded-xl shadow-md space-y-4">
+              <!-- Profile Section -->
+              <div class="flex items-center space-x-4">
+                <img src="images/a3.png" alt="Tems Jacob" class="w-12 h-12 rounded-full object-cover">
+                <div class="flex-1">
+                  <h2 class="text-lg font-semibold text-gray-900">Superman Jo</h2>
+                </div>
+                <!-- Star Rating -->
+                <div class="flex space-x-1">
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-gray-500">★</span>
+                </div>
+              </div>
+              <!-- Review Text -->
+              <p class="text-gray-600 text-[15px] leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semperA. Quisque nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semper. Quisque nibh
+              </p>
+              <!-- Date -->
+              <p class="pt-3 text-sm text-gray-400">28 October 2023</p>
+            </div>
+            
+            <div class="max-w-md p-6 bg-white rounded-xl shadow-md space-y-4 mt-6">
+              <!-- Profile Section -->
+              <div class="flex items-center space-x-4">
+                <img src="images/a4.png" alt="Tems Jacob" class="w-12 h-12 rounded-full object-cover">
+                <div class="flex-1">
+                  <h2 class="text-lg font-semibold text-gray-900">Tems Jacob</h2>
+                </div>
+                <!-- Star Rating -->
+                <div class="flex space-x-1">
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-gray-500">★</span>
+                </div>
+              </div>
+              <!-- Review Text -->
+              <p class="text-gray-600 text-[15px] leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semperA. Quisque nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semper. Quisque nibh
+              </p>
+              <!-- Date -->
+              <p class="pt-3 text-sm text-gray-400">28 October 2023</p>
+            </div>
+            
+            <div class="max-w-md p-6 bg-white rounded-xl shadow-md space-y-4 mt-6">
+              <!-- Profile Section -->
+              <div class="flex items-center space-x-4">
+                <img src="images/a5.png" alt="Tems Jacob" class="w-12 h-12 rounded-full object-cover">
+                <div class="flex-1">
+                  <h2 class="text-lg font-semibold text-gray-900">Louis Lane</h2>
+                </div>
+                <!-- Star Rating -->
+                <div class="flex space-x-1">
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-gray-500">★</span>
+                </div>
+              </div>
+              <!-- Review Text -->
+              <p class="text-gray-600 text-[15px] leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semperA. Quisque nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semper. Quisque nibh
+              </p>
+              <!-- Date -->
+              <p class="pt-3 text-sm text-gray-400">28 October 2023</p>
+            </div>
+            
+            <div class="max-w-md p-6 bg-white rounded-xl shadow-md space-y-4 mt-6">
+              <!-- Profile Section -->
+              <div class="flex items-center space-x-4">
+                <img src="images/a6.png" alt="Tems Jacob" class="w-12 h-12 rounded-full object-cover">
+                <div class="flex-1">
+                  <h2 class="text-lg font-semibold text-gray-900">Kenneth Williams</h2>
+                </div>
+                <!-- Star Rating -->
+                <div class="flex space-x-1">
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-blue-800">★</span>
+                  <span class="text-gray-500">★</span>
+                </div>
+              </div>
+              <!-- Review Text -->
+              <p class="text-gray-600 text-[15px] leading-relaxed">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semperA. Quisque nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida quis nisl ut semper. Quisque nibh
+              </p>
+              <!-- Date -->
+              <p class="pt-3 text-sm text-gray-400">28 October 2023</p>
+            </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="relative mb-30">
+  <div class="max-w-[1440px] mx-auto px-4">
+    <!-- Title and description -->
+    <div class="flex gap-30 items-center text-center pt-[102px]">
+      <div class="mt-[-300px] pl-14">
+         <img src="images/1phone.png" alt="1phone" class=" h-[900px]" />
+      </div>
+      <div class="pt-0 mt-[-350px]">
+        <h2 class="text-4xl font-bold">Download the free mobile App</h2>
+        <p class="pt-4 text-base">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut gravida <br />
+          quis nisl ut semper. nibh ut semper nisl ut semper
+        </p>
+        <div class="flex gap-7 justify-center py-10">
+         <img src="images/google-play.png" alt="1phone" class=" h-[60px]" />
+            <img src="images/apple-store.png" alt="1phone" class=" h-[60px]" />
+      </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+<section class="bg-blue-800 text-white pt-5 pb-30">
+  <div class="max-w-[1440px] mx-auto px-4">
+
+
+
+    
+    <!-- Title and description -->
+    <div class="flex gap-30 items-center pt-[102p]">
+      <div class="grid-cols-4 flex gap-40">
+        <div class="">
+          <h2 class="py-7 text-3xl font-bold">QuickLift</h2>
+          <p class=" text-base">
+            Lorem ipsum hddndn idtewu ioljl <br>
+            jdjdip Lorem ipsum hddndn idtewu <br>
+            ioljl jdjdipLorem ipsum hddndn <br>
+            idtewu ioljl jdjdip
+          </p>
+      </div>
+      <div class="">
+         <p class="text-2xl font-bold py-7">QUICKLIFT</p>
+<ul>
+  <li>Plot 1210,</li>
+  <li>Water corporation drive</li>
+  <li>Opposite landmark event center</li>
+  <li>Oniru,</li>
+  <li>Victoria Island, Lagos</li>
+</ul>
+      </div>
+      <div class="">
+         <p class="text-2xl font-bold py-7">PARTNER WITH US</p>
+<ul class="">
+  <li>Sign up as a driver</li>
+  <li>Freets</li>
+  <li>Franchise</li>
+  <li>Influencers</li>
+</ul>
+      </div>
+      <div>
+        <p class="text-2xl font-bold py-7">COMPANY</p>
+<ul class="">
+  <li>About Us</li>
+  <li>Contact</li>
+  <li>Blog</li>
+  <li>Branch Guidlines</li>
+</ul>
+      </div>
+      </div>
+    </div>
+</section>
 
     </main>
   </body>
